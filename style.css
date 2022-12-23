@@ -1,0 +1,19 @@
+.div-principal {
+    display: flex;
+    /* formção tela */
+    flex-direction: column;
+    /* direção quando o display é flex */
+    justify-content: center;
+    text-align: center;
+}
+
+.botao {
+    width: 50px;
+    /*comprimento*/
+    height: 50px;
+    /*altura*/
+    background-color: blue;
+    /*cor de fundo*/
+    color: white;
+    /*cor do texto*/
+}

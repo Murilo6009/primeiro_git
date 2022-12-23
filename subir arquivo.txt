@@ -1,0 +1,3 @@
+git add .\"nome do arquivo"  \\. "para todos"
+git commit -m "todos" \\comentario
+git push -u origen main

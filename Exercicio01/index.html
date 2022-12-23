@@ -1,0 +1,57 @@
+<!-- Criar dois inputs, capturar os dois numeros, somar, e mostrar o resultado com alerta -->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 1</title>
+
+    <script src="./script.js"></script> <!-- script para linkar o javascript-->
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" /> <!-- para lincar os estilos da pagina -->
+    <!-- lincando o css do FontAwesome com o nosso codigo -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+
+<body>
+
+    <div class="ajuste">
+        <h3> somandos os numero</h3>
+        <div class="em_linha">
+
+            <input type="number" id="campo1" placeholder="numero 1">
+
+            <input type="number" id="campo2" placeholder="numero 2">
+
+            <div>
+                <button class="botao" onclick="soma()">
+                    Somar
+                    <i class="fa fa-plus" aria-hidden="true"></i>
+                </button>
+            </div>
+
+            <div>
+                <button class="botao" onclick="subtracao()">Subtração</button>
+            </div>
+
+            <div>
+                <button class="botao" onclick="divisao()">Divisao</button>
+            </div>
+
+            <div>
+                <button class="botao" onclick="multiplicacao()">Multiplicação
+
+                </button>
+            </div>
+        </div>
+        <input disabled id="resultado">
+    </div>
+
+
+</body>
+
+</html>
