@@ -16,7 +16,7 @@
 }
 
 .em_linha{
-    display: flex;
+    display:inline;
     flex-direction: row;
     height: 30px;
     align-items: center;
