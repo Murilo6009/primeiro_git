@@ -20,10 +20,14 @@ body {
 }
 
 .em_linha {
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
-    height: 30px;
     align-items: center;
+}
+
+.em_coluna {
+    display: flex;
+    flex-direction: column;
 }
 
 .menuhorizontal {
