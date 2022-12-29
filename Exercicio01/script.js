@@ -1,20 +1,25 @@
 function soma() {
     var campo1 = document.getElementById('campo1');
     var campo2 = document.getElementById('campo2');
-    var resultado = document.getElementById('resultado')
+    var resultado = document.getElementById('resultado');
 
     //parseInt está passando o valor para inteiros
-    resultado.value = parseFloat(campo1.value) + parseFloat(campo2.value) 
+    // resultado.value = parseFloat(campo1.value) + parseFloat(campo2.value)
+    alert(parseFloat(campo1.value) + parseFloat(campo2.value));
 };
-
 function subtracao() {
-    alert(parseFloat(campo1.value) - parseFloat(campo2.value));
+    var campo3 = document.getElementById('campo3');
+    var campo4 = document.getElementById('campo4');
+    
+    alert(parseFloat(campo3.value) - parseFloat(campo4.value))
 };
-
 function divisao() {
-    alert(parseFloat(campo1.value) / parseFloat(campo2.value));
+    var campo7 = document.getElementById('campo7');
+    var campo8 = document.getElementById('campo8');
+    alert(parseFloat(campo1.value) / parseFloat(campo2.value))
 };
-
 function multiplicacao() {
-    alert(parseFloat(campo1.value) * parseFloat(campo2.value));
+    var campo9 = document.getElementById('campo9');
+    var campo10 = document.getElementById('campo10');
+    alert(parseFloat(campo1.value) * parseFloat(campo2.value))
 };

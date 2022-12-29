@@ -18,7 +18,7 @@
 <body>
     <ul class="menuhorizontal">
         <li class="positions">
-            <a class="positions" href="https://www.google.com.br">Home</a>
+            <a class="positions" href="../imagem.gif">Home</a>
         </li>
         <li class="positions">
             <a class="positions" href="../Exercicio01/index.html">Exercicio 1</a>
@@ -40,6 +40,7 @@
             <div class="em_coluna">
                 <div class="linha">
                     <input type="number" id="campo1" placeholder="numero 1">
+                </br>
                     +
                     <input type="number" id="campo2" placeholder="numero 2">
                     <button class="botao" onclick="soma()">
@@ -49,9 +50,10 @@
                 </div>
                 </br>
                 <div class="linha">
-                    <input type="number" id="campo1" placeholder="numero 1">
-                    +
-                    <input type="number" id="campo2" placeholder="numero 2">
+                    <input type="number" id="campo3" placeholder="numero 1">
+                </br>
+                    -
+                    <input type="number" id="campo4" placeholder="numero 2">
                     <button class="botao" onclick="subtracao()">
                         Subtração
                         <i class="fa fa-minus" aria-hidden="true"></i>
@@ -59,29 +61,34 @@
                 </div>
                 </br>
                 <div>
-                    <input type="number" id="campo1" placeholder="numero 1">
-                    +
-                    <input type="number" id="campo2" placeholder="numero 2">
+                    <div class="linha">
+                        <input type="number" id="campo1" placeholder="numero 1">
+                    </br>
+                        x
+                        <input type="number" id="campo2" placeholder="numero 2">
+                        <button class="botao" onclick="multiplicacao()">
+                            Multiplicação
+                            <i class="fa fa-times" aria-hidden="true"></i>
+                    </div>
                 </div>
                 </br>
-                <div>
+                <div class="linha">
                     <input type="number" id="campo1" placeholder="numero 1">
-                    +
+                </br>
+                    /
                     <input type="number" id="campo2" placeholder="numero 2">
+                    <button class="botao" onclick="divisao()">
+                        Divisao
+                        <span class="divisao">
+                            /
+                        </span>
+                    </button>
                 </div>
             </div>
             <div>
-                <button class="botao" onclick="divisao()">
-                    Divisao
-                    <span class="divisao">
-                        /
-                    </span>
-                </button>
+
             </div>
             <div>
-                <button class="botao" onclick="multiplicacao()">
-                    Multiplicação
-                    <i class="fa fa-times" aria-hidden="true"></i>
                 </button>
             </div>
         </div>
