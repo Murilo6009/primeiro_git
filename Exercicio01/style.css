@@ -3,12 +3,12 @@ body {
 }
 
 .botao {
-    width: 120px;
+    width: auto;
     height: 50px;
-    background-color: black;
+    background-color:yellowgreen;
     color: white;
-    justify-content: flex-start;
     margin-left: 10px;
+    text-align: center;    
 }
 
 .ajuste {
@@ -45,14 +45,13 @@ body {
     font-family: Verdana, Arial, Helvetica, sans-serif;
     font-size: 14px;
     font-weight: bold;
-    justify-content: left;
-    text-align: left;
+    justify-content: center;
+    text-align: center;
     align-items: center;
     margin: 0;
     padding: 0;
     width: auto;
     height: 30px;
-
 }
 
 .positions {
