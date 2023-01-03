@@ -2,13 +2,11 @@ body{
     margin: 0;
 }
 
-
 .embaixo {
     display: flex;
     flex-direction: column;
     align-items: initial;
     width: 20%;
-
 }
 
 .menuhorizontal {
@@ -26,8 +24,7 @@ body{
     margin: 0;
     padding: 0;
     width: auto;
-    height: 30px;
-    
+    height: 30px;    
 }
 
 .positions{
@@ -35,4 +32,3 @@ body{
     text-decoration: none;
     color: #ffffff;
 }
-
