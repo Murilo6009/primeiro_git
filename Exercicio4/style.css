@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.menuhorizontal {
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+    padding: 10px;
+    background-color: #0f0f0f;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: auto;
+    height: 30px;
+}
+
+.positions {
+    margin: 0 20px;
+    text-decoration: none;
+    color: #ffffff;
+}
