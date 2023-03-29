@@ -1,0 +1,4 @@
+.Produto {
+    display: flex; /*Deixar a div Flexivel*/
+    flex-direction: column;
+}
